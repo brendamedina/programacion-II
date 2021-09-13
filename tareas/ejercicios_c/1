@@ -1,0 +1,9 @@
+def calcular_mayor(x, y):
+    if x >= y:
+        return x
+    else:
+        return y
+x = 100
+y = 25
+
+print(calcular_mayor(x, y))
